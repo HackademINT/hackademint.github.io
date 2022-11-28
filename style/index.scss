@@ -1,0 +1,204 @@
+//Main
+$backgroundColor: #141d2b;
+$textColor: #a4b1cd;
+$titleColor: #fff;
+$primaryColor: #ef5400;
+
+//Menu
+$menuBackgroundColor: #111927;
+
+@font-face {
+  font-family: "Great Escape W00 Regular";
+  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot"); /* IE9*/
+  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff2")
+      format("woff2"),
+    /* chrome、firefox */
+      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff")
+      format("woff"),
+    /* chrome、firefox */
+      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.ttf")
+      format("truetype"),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.svg#Great Escape W00 Regular")
+      format("svg"); /* iOS 4.1- */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+body {
+  background-color: $backgroundColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: auto;
+  color: $titleColor;
+  font-family: "Great Escape W00 Regular";
+}
+
+p {
+  color: $textColor;
+  font-family: "Neue Haas Unica Pro", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.button {
+  &.is-primary {
+    background-color: $primaryColor;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: lighten($primaryColor, 10%);
+    }
+  }
+}
+
+.navbar {
+  background-color: $menuBackgroundColor;
+  padding: 1rem 0;
+  box-shadow: 0 9px 15px -12px #000;
+
+  .navbar-item {
+    color: $textColor;
+    font-weight: 500;
+    transition: 0.2s;
+
+    img {
+      max-height: 3rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-right: 2rem;
+    }
+
+    &:hover {
+      color: white;
+      background: unset;
+    }
+  }
+
+  .navbar-burger {
+    color: white;
+  }
+
+  .navbar-menu {
+    background-color: $menuBackgroundColor;
+  }
+}
+
+.content-wrap {
+  section {
+    overflow: hidden;
+    background: linear-gradient(0deg, #1a2332 15%, #141d2b 0);
+
+    &.landing {
+      padding-top: 5rem;
+    }
+
+    .container {
+      max-width: 952px;
+      padding-top: 3rem;
+      padding-bottom: 7.5rem;
+      margin: auto;
+
+      div {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+
+  .logo-text {
+    color: $titleColor;
+    font-family: "Great Escape W00 Regular";
+
+    h1 {
+      margin: auto;
+      text-align: center;
+      font-size: 5rem;
+      font-weight: normal;
+    }
+
+    h2 {
+      margin: auto;
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: normal;
+    }
+  }
+
+  .line {
+    width: 100%;
+
+    .line-block {
+      height: 15px;
+      width: 100%;
+      background-color: #0c0502;
+      opacity: 0.6;
+    }
+
+    &.top-line {
+      img {
+        width: 30%;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 11px;
+        z-index: 10;
+      }
+    }
+
+    &.bottom-line {
+      margin-top: 1rem;
+    }
+  }
+
+  .presentation-text {
+    width: 80%;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    p {
+      margin: 1rem 0 2rem 0;
+    }
+  }
+}

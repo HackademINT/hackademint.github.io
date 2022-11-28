@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Great Escape W00 Regular";
+  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot"); /* IE9*/
+  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff2") format("woff2"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff") format("woff"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.ttf") format("truetype"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.svg#Great Escape W00 Regular") format("svg"); /* iOS 4.1- */
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+body {
+  background-color: #141d2b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: auto;
+  color: #fff;
+  font-family: "Great Escape W00 Regular";
+}
+
+p {
+  color: #a4b1cd;
+  font-family: "Neue Haas Unica Pro", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.button.is-primary {
+  background-color: #ef5400;
+  transition: 0.2s;
+}
+.button.is-primary:hover {
+  background-color: #ff7023;
+}
+
+.navbar {
+  background-color: #111927;
+  padding: 1rem 0;
+  box-shadow: 0 9px 15px -12px #000;
+}
+.navbar .navbar-item {
+  color: #a4b1cd;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.navbar .navbar-item img {
+  max-height: 3rem;
+}
+.navbar .navbar-item h3 {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+.navbar .navbar-item:hover {
+  color: white;
+  background: unset;
+}
+.navbar .navbar-burger {
+  color: white;
+}
+.navbar .navbar-menu {
+  background-color: #111927;
+}
+
+.content-wrap section {
+  overflow: hidden;
+  background: linear-gradient(0deg, #1a2332 15%, #141d2b 0);
+}
+.content-wrap section.landing {
+  padding-top: 5rem;
+}
+.content-wrap section .container {
+  max-width: 952px;
+  padding-top: 3rem;
+  padding-bottom: 7.5rem;
+  margin: auto;
+}
+.content-wrap section .container div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+.main-logo .logo-text {
+  color: #fff;
+  font-family: "Great Escape W00 Regular";
+}
+.main-logo .logo-text h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: normal;
+}
+.main-logo .logo-text h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+.main-logo .line {
+  width: 100%;
+}
+.main-logo .line .line-block {
+  height: 15px;
+  width: 100%;
+  background-color: #0c0502;
+  opacity: 0.6;
+}
+.main-logo .line.top-line img {
+  width: 30%;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 11px;
+  z-index: 10;
+}
+.main-logo .line.bottom-line {
+  margin-top: 1rem;
+}
+.main-logo .presentation-text {
+  width: 80%;
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.main-logo .presentation-text p {
+  margin: 1rem 0 2rem 0;
+}/*# sourceMappingURL=index.css.map */
