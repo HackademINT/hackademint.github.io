@@ -2,8 +2,16 @@ $aboutBackgroundColor: #1a2332;
 $articleBackgroundColor: #141d2b;
 $cardBackgroundColor: #111927;
 
+.splide__slide img {
+  height: 100%;
+}
+
 .registered {
   vertical-align: super;
+}
+
+.media-content {
+  overflow: hidden;
 }
 
 section.about {
@@ -72,6 +80,24 @@ section.about {
         .subtitle {
           color: $textColor;
         }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+
+      h3 {
+        text-align: center;
+      }
+
+      .article-content {
+        width: 100%;
+      }
+
+      .article-image {
+        width: 80%;
       }
     }
   }

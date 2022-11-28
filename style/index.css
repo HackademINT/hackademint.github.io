@@ -90,7 +90,7 @@ a {
   padding-top: 5rem;
 }
 .content-wrap section .container {
-  max-width: 952px;
+  max-width: 100% !important;
   padding-top: 3rem;
   padding-bottom: 7.5rem;
   margin: auto;
@@ -107,6 +107,7 @@ a {
   align-items: center;
   width: 100%;
   max-width: 600px;
+  margin-bottom: 3rem;
 }
 .main-logo .logo-text {
   color: #fff;
@@ -155,8 +156,16 @@ a {
   margin: 1rem 0 2rem 0;
 }
 
+.splide__slide img {
+  height: 100%;
+}
+
 .registered {
   vertical-align: super;
+}
+
+.media-content {
+  overflow: hidden;
 }
 
 section.about {
@@ -215,4 +224,20 @@ section.about article .article-bottom .card .title {
 }
 section.about article .article-bottom .card .subtitle {
   color: #a4b1cd;
+}
+@media screen and (max-width: 768px) {
+  section.about article {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  section.about article h3 {
+    text-align: center;
+  }
+  section.about article .article-content {
+    width: 100%;
+  }
+  section.about article .article-image {
+    width: 80%;
+  }
 }/*# sourceMappingURL=index.css.map */

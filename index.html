@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+    <link rel="stylesheet" href="./style/splide.min.css" />
     <link rel="stylesheet" href="style/index.css" />
 
     <!-- Metadata -->
@@ -48,7 +49,7 @@
 
       <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item"> À propos </a>
+          <a class="navbar-item" href="#about"> À propos </a>
 
           <a class="navbar-item"> Formations </a>
 
@@ -99,9 +100,36 @@
               <button class="button is-primary">Rejoignez-nous</button>
             </div>
           </div>
+          <div class="splide" role="group" aria-label="Rankings">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img src="./assets/img/rankings/HTB.png" alt="HTB" />
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/img/rankings/MHS.png" alt="MHS" />
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/img/rankings/META.png" alt="META" />
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/img/rankings/Orange.png" alt="Orange" />
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="./assets/img/rankings/Cybergrabs.png"
+                    alt="Cybergrabs"
+                  />
+                </li>
+                <li class="splide__slide">
+                  <img src="./assets/img/rankings/Midnight.png" alt="Orange" />
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2>Qui sommes-nous ?</h2>
           <article class="large-article">
@@ -285,8 +313,27 @@
         </div>
       </section>
     </div>
-
+    <script src="./script/splide.min.js"></script>
     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var splide = new Splide(".splide", {
+          arrows: false,
+          type: "loop",
+          fixedWidth: "20%",
+          pauseOnFocus: false,
+          pauseOnHover: false,
+          perMove: 1,
+          autoplay: true,
+          interval: 1800,
+          speed: 1800,
+          easing: "linear",
+          cover: false,
+          pagination: false,
+          gap: "2rem",
+        });
+        splide.mount();
+      });
+
       document.addEventListener("DOMContentLoaded", () => {
         // Get all "navbar-burger" elements
         const $navbarBurgers = Array.prototype.slice.call(
