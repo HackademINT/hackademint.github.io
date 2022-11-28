@@ -90,7 +90,7 @@ a {
   padding-top: 5rem;
 }
 .content-wrap section .container {
-  max-width: 952px;
+  max-width: 100% !important;
   padding-top: 3rem;
   padding-bottom: 7.5rem;
   margin: auto;
@@ -107,6 +107,7 @@ a {
   align-items: center;
   width: 100%;
   max-width: 600px;
+  margin-bottom: 3rem;
 }
 .main-logo .logo-text {
   color: #fff;
@@ -153,6 +154,92 @@ a {
 }
 .main-logo .presentation-text p {
   margin: 1rem 0 2rem 0;
+}
+
+.splide__slide img {
+  height: 100%;
+}
+
+.registered {
+  vertical-align: super;
+}
+
+.media-content {
+  overflow: hidden;
+}
+
+section.about {
+  background: #1a2332;
+}
+section.about h2 {
+  font-size: 3rem;
+  margin: auto;
+  text-align: center;
+}
+section.about article {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: #141d2b;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section.about article .article-content {
+  width: 55%;
+}
+section.about article .article-content h3 {
+  font-size: 2rem;
+}
+section.about article .article-content li {
+  padding-left: 1rem;
+}
+section.about article .article-content .article-text p {
+  margin: 1rem 0;
+}
+section.about article .article-image {
+  width: 35%;
+}
+section.about article .article-bottom {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+section.about article .article-bottom .card {
+  margin: 0.2rem;
+  flex-grow: 1;
+  background: #111927;
+  transition: 0.3s;
+}
+section.about article .article-bottom .card:hover {
+  flex-grow: 5;
+}
+section.about article .article-bottom .card .title {
+  color: #fff;
+}
+section.about article .article-bottom .card .subtitle {
+  color: #a4b1cd;
+}
+@media screen and (max-width: 768px) {
+  section.about article {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  section.about article h3 {
+    text-align: center;
+  }
+  section.about article .article-content {
+    width: 100%;
+  }
+  section.about article .article-image {
+    width: 80%;
+  }
 }
 
 section.sponsors {
@@ -227,4 +314,3 @@ section.sponsors .sponsor-list .sponsor:hover .sponsor-name, section.sponsors .s
   opacity: 100%;
 }
 
-/*# sourceMappingURL=index.css.map */

@@ -126,7 +126,7 @@ a {
     }
 
     .container {
-      max-width: 952px;
+      max-width: 100% !important;
       padding-top: 3rem;
       padding-bottom: 7.5rem;
       margin: auto;
@@ -146,6 +146,7 @@ a {
   align-items: center;
   width: 100%;
   max-width: 600px;
+  margin-bottom: 3rem;
 
   .logo-text {
     color: $titleColor;
@@ -203,5 +204,8 @@ a {
     }
   }
 }
+
+
+@import "about";
 
 @import "partners";
