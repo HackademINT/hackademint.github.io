@@ -3,6 +3,8 @@ $backgroundColor: #141d2b;
 $textColor: #a4b1cd;
 $titleColor: #fff;
 $primaryColor: #ef5400;
+$titleFont: "Great Escape W00 Regular", sans-serif;
+$textFont: "Neue Haas Unica Pro", Helvetica, sans-serif;
 
 //Menu
 $menuBackgroundColor: #111927;
@@ -36,7 +38,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  font-family: "Neue Haas Unica Pro", sans-serif;
+  font-family: $textFont;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -56,12 +58,12 @@ h5,
 h6 {
   margin: auto;
   color: $titleColor;
-  font-family: "Great Escape W00 Regular";
+  font-family: $titleFont;
 }
 
 p {
   color: $textColor;
-  font-family: "Neue Haas Unica Pro", Helvetica, sans-serif;
+  font-family: $textFont;
 }
 
 a {
@@ -147,8 +149,7 @@ a {
 
   .logo-text {
     color: $titleColor;
-    font-family: "Great Escape W00 Regular";
-
+    font-family: $titleFont;
     h1 {
       margin: auto;
       text-align: center;
