@@ -1,0 +1,41 @@
+section.sponsors {
+
+  text-align: center;
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .sponsor-list {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 60rem;
+
+    .sponsor {
+
+      width: max(15rem, 45%);
+      background-color: #212d39;
+      border-radius: 0.5rem;
+      margin: 1rem;
+      padding: 1rem;
+
+      img.sponsor-logo {
+
+      }
+
+      p.sponsor-description {
+        display: none;
+      }
+
+      .sponsor-website {
+        display: none;
+      }
+
+    }
+  }
+
+
+
+}

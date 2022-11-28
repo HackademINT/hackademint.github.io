@@ -153,4 +153,32 @@ a {
 }
 .main-logo .presentation-text p {
   margin: 1rem 0 2rem 0;
-}/*# sourceMappingURL=index.css.map */
+}
+
+section.sponsors {
+  text-align: center;
+}
+section.sponsors h2 {
+  font-size: 3rem;
+}
+section.sponsors .sponsor-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 60rem;
+}
+section.sponsors .sponsor-list .sponsor {
+  width: max(15rem, 45%);
+  background-color: #212d39;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+section.sponsors .sponsor-list .sponsor p.sponsor-description {
+  display: none;
+}
+section.sponsors .sponsor-list .sponsor .sponsor-website {
+  display: none;
+}
+
+/*# sourceMappingURL=index.css.map */
