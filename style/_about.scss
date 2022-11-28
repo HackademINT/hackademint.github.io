@@ -1,0 +1,78 @@
+$aboutBackgroundColor: #1a2332;
+$articleBackgroundColor: #141d2b;
+$cardBackgroundColor: #111927;
+
+.registered {
+  vertical-align: super;
+}
+
+section.about {
+  background: $aboutBackgroundColor;
+
+  h2 {
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  article {
+    width: 95%;
+    margin: 2rem auto;
+    background-color: $articleBackgroundColor;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .article-content {
+      width: 55%;
+      h3 {
+        font-size: 2rem;
+      }
+
+      li {
+        padding-left: 1rem;
+      }
+
+      .article-text {
+        p {
+          margin: 1rem 0;
+        }
+      }
+    }
+
+    .article-image {
+      width: 35%;
+    }
+
+    .article-bottom {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      .card {
+        margin: 0.2rem;
+        flex-grow: 1;
+        background: $cardBackgroundColor;
+        transition: 0.3s;
+
+        &:hover {
+          flex-grow: 5;
+        }
+
+        .title {
+          color: $titleColor;
+        }
+
+        .subtitle {
+          color: $textColor;
+        }
+      }
+    }
+  }
+}
