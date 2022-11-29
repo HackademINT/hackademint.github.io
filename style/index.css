@@ -155,6 +155,14 @@ a {
 .main-logo .presentation-text p {
   margin: 1rem 0 2rem 0;
 }
+@media screen and (max-width: 648px) {
+  .main-logo {
+    width: 95%;
+  }
+  .main-logo .logo-text h1 {
+    font-size: 3rem;
+  }
+}
 
 .splide__slide img {
   height: 100%;
@@ -312,6 +320,4 @@ section.partners .partner-list .partner:hover .logo-container, section.partners 
 }
 section.partners .partner-list .partner:hover .partner-name, section.partners .partner-list .partner:hover .partner-description, section.partners .partner-list .partner:hover .partner-website, section.partners .partner-list .partner:focus .partner-name, section.partners .partner-list .partner:focus .partner-description, section.partners .partner-list .partner:focus .partner-website {
   opacity: 100%;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

@@ -63,7 +63,11 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-primary" href="https://discord.hackademint.org" target="_blank">
+              <a
+                class="button is-primary"
+                href="https://discord.hackademint.org"
+                target="_blank"
+              >
                 <strong>Discord</strong>
               </a>
             </div>
@@ -94,10 +98,15 @@
               <p>
                 HackademINT est le club de cybersécurité rattaché à
                 l'association MiNET sur le campus de Télécom SudParis et
-                co-orgamisateur du 404 CTF. Rejoignez nos réseaux pour en savoir
+                co-organisateur du 404 CTF. Rejoignez nos réseaux pour en savoir
                 plus sur nos prochaines formations et nos prochains évènements.
               </p>
-              <a class="button is-primary" href="https://discord.hackademint.org" target="_blank">Rejoignez-nous</a>
+              <a
+                class="button is-primary"
+                href="https://discord.hackademint.org"
+                target="_blank"
+                >Rejoignez-nous</a
+              >
             </div>
           </div>
           <div class="splide" role="group" aria-label="Rankings">
@@ -447,7 +456,7 @@
         var splide = new Splide(".splide", {
           arrows: false,
           type: "loop",
-          fixedWidth: "20%",
+          fixedWidth: "15rem",
           pauseOnFocus: false,
           pauseOnHover: false,
           perMove: 1,
@@ -456,6 +465,7 @@
           speed: 1800,
           easing: "linear",
           cover: false,
+          drag: false,
           pagination: false,
           gap: "2rem",
         });

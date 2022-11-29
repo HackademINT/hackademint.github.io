@@ -203,6 +203,16 @@ a {
       margin: 1rem 0 2rem 0;
     }
   }
+
+  @media screen and (max-width: 648px) {
+    width: 95%;
+
+    .logo-text {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
 }
 
 @import "about";
