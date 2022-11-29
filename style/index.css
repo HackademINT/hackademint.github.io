@@ -242,19 +242,19 @@ section.about article .article-bottom .card .subtitle {
   }
 }
 
-section.sponsors {
+section.partners {
   text-align: center;
 }
-section.sponsors h2 {
+section.partners h2 {
   font-size: 3rem;
 }
-section.sponsors .sponsor-list {
+section.partners .partner-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 60rem;
 }
-section.sponsors .sponsor-list .sponsor {
+section.partners .partner-list .partner {
   width: max(15rem, 45%);
   height: 18rem;
   background-color: #212d39;
@@ -263,7 +263,7 @@ section.sponsors .sponsor-list .sponsor {
   padding: 1rem;
   position: relative;
 }
-section.sponsors .sponsor-list .sponsor .logo-container {
+section.partners .partner-list .partner .logo-container {
   position: absolute;
   left: 0;
   right: 0;
@@ -278,17 +278,17 @@ section.sponsors .sponsor-list .sponsor .logo-container {
   align-content: center;
   transition: left 500ms ease, bottom 500ms ease;
 }
-section.sponsors .sponsor-list .sponsor .logo-container .sponsor-logo {
+section.partners .partner-list .partner .logo-container .partner-logo {
   max-width: 100%;
   max-height: 100%;
 }
-section.sponsors .sponsor-list .sponsor .sponsor-name {
+section.partners .partner-list .partner .partner-name {
   font-size: 1.75rem;
   position: absolute;
   top: 2.25rem;
   left: 1.5rem;
 }
-section.sponsors .sponsor-list .sponsor .sponsor-description {
+section.partners .partner-list .partner .partner-description {
   position: absolute;
   top: 35%;
   bottom: 4.75rem;
@@ -296,20 +296,22 @@ section.sponsors .sponsor-list .sponsor .sponsor-description {
   right: 1.5rem;
   font-size: 0.8rem;
 }
-section.sponsors .sponsor-list .sponsor .sponsor-website {
+section.partners .partner-list .partner .partner-website {
   position: absolute;
   bottom: 1.25rem;
   left: 4rem;
   right: 4rem;
 }
-section.sponsors .sponsor-list .sponsor .sponsor-name, section.sponsors .sponsor-list .sponsor .sponsor-description, section.sponsors .sponsor-list .sponsor .sponsor-website {
+section.partners .partner-list .partner .partner-name, section.partners .partner-list .partner .partner-description, section.partners .partner-list .partner .partner-website {
   opacity: 0;
   transition: opacity 750ms ease;
 }
-section.sponsors .sponsor-list .sponsor:hover .logo-container, section.sponsors .sponsor-list .sponsor:focus .logo-container {
+section.partners .partner-list .partner:hover .logo-container, section.partners .partner-list .partner:focus .logo-container {
   bottom: 60%;
   left: 60%;
 }
-section.sponsors .sponsor-list .sponsor:hover .sponsor-name, section.sponsors .sponsor-list .sponsor:hover .sponsor-description, section.sponsors .sponsor-list .sponsor:hover .sponsor-website, section.sponsors .sponsor-list .sponsor:focus .sponsor-name, section.sponsors .sponsor-list .sponsor:focus .sponsor-description, section.sponsors .sponsor-list .sponsor:focus .sponsor-website {
+section.partners .partner-list .partner:hover .partner-name, section.partners .partner-list .partner:hover .partner-description, section.partners .partner-list .partner:hover .partner-website, section.partners .partner-list .partner:focus .partner-name, section.partners .partner-list .partner:focus .partner-description, section.partners .partner-list .partner:focus .partner-website {
   opacity: 100%;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
