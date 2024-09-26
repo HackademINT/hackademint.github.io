@@ -1,8 +1,9 @@
 @font-face {
-  font-family: "Great Escape W00 Regular";
-  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot"); /* IE9*/
-  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff2") format("woff2"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff") format("woff"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.ttf") format("truetype"), url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.svg#Great Escape W00 Regular") format("svg"); /* iOS 4.1- */
-}
+    font-family: "Great Escape W00 Regular";
+    src: url("../assets/fonts/Orbitron/Orbitron-Medium.ttf")
+        format("truetype")
+  }
+
 * {
   box-sizing: border-box;
 }

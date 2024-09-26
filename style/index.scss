@@ -11,21 +11,8 @@ $menuBackgroundColor: #111927;
 
 @font-face {
   font-family: "Great Escape W00 Regular";
-  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot"); /* IE9*/
-  src: url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff2")
-      format("woff2"),
-    /* chrome、firefox */
-      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.woff")
-      format("woff"),
-    /* chrome、firefox */
-      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.ttf")
-      format("truetype"),
-    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("../assets/fonts/GreatEscapeW00/fb3c4b71bdef21fc01e7cbb87aaa91cf.svg#Great Escape W00 Regular")
-      format("svg"); /* iOS 4.1- */
+  src: url("../assets/fonts/Orbitron/Orbitron-Medium.ttf")
+      format("truetype")
 }
 
 * {
